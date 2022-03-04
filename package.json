@@ -1,0 +1,26 @@
+{
+  "name": "nft-metadata-generator",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l0ne/nft-metadata-generator.git"
+  },
+  "author": "Aleksei Yudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l0ne/nft-metadata-generator/issues"
+  },
+  "homepage": "https://github.com/l0ne/nft-metadata-generator#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nodemon": "^2.0.15"
+  }
+}
