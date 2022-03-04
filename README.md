@@ -1,0 +1,1 @@
+# nft-metadata-generator
